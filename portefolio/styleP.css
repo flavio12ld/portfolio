@@ -1,0 +1,297 @@
+body{
+    
+    background-image:url("../image/background_fond.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+    background-attachment:fixed;
+    background-size:1200px;  
+    background-size:cover;   
+}
+
+.id{
+    background:linear-gradient(#e66465, #9198e5);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;    
+    font-weight:800;
+    border:solid;
+    border:1rem solid;
+    writing-mode:horizontal-tb;
+    direction:rtl;
+    border-color:rgb(255, 255, 255);
+    margin-left:75px;
+    margin-right:50px;   
+    margin-top:10px;
+    margin-bottom:45px;      
+}
+
+.Image {
+    float: left;
+    color:white;
+}
+
+.Image:hover{
+    background-color: white;
+}
+
+.container{
+    color:white;    
+    justify-content:space-around;
+    flex-direction:row;
+    display:flex;
+}
+.container a{
+    color: white;
+}
+
+.MOOC{
+    border:solid;
+    border-left:10px;
+    border-right:10px;
+    border-radius:10px;
+    margin-left:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.MOOC:hover{
+    background-color: rgb(0, 0, 0);
+    color:black;
+}
+
+.VT{
+    border:solid;
+    border-left:10px;
+    border-right:10px;
+    border-radius:10px;
+    margin-left:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.VT:hover{
+    background-color:rgb(0, 0, 0);
+    color:black;
+}
+
+.Experience{
+    border:solid;
+    border-left:10px;
+    border-right:10px;
+    border-radius:10px;
+    margin-left:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.Experience:hover{
+    background-color:rgb(0, 0, 0);
+    color:black;
+}
+
+.projet{
+    border:solid;
+    border-left:10px;
+    border-right:10px;
+    border-radius:10px;
+    margin-left:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.projet:hover{
+    background-color:rgb(0, 0, 0);
+    color:black;
+}
+
+.PresentationPerso{
+    border:solid;
+    border-left:10px;
+    border-right:10px;
+    border-radius:10px;
+    margin-left:25px;
+    margin-right:25px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.PresentationPerso:hover{
+    background-color:rgb(0, 0, 0);
+    color:black;
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e66465, #9198e5);
+    opacity: 0.4;      
+}
+
+.Titre{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:110px;
+    font-weight:bolder;
+    margin-left:770px;
+    color: white;    
+}
+
+.sous_page{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-shadow: rgb(255, 255, 255) 1px 0 10px; 
+    flex-wrap: center;
+
+}
+
+
+/*Style Presentation Personnelle*/
+
+body{
+   
+    margin-top:25px;
+    margin-left:25px;
+}
+
+.image{
+    width: 450px;
+    height: 225px;
+       
+}
+
+.CV{
+    border:solid;
+    border-left:30px;
+    border-right:30px;
+    border-radius:10px;
+    margin-left:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    
+}
+
+.CV:hover{
+    background-color:rgb(0, 0, 0);
+    color:black;
+}
+
+
+.en_tete{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;    
+}
+
+/*Style CV*/ 
+body{
+    background-color: rgb(64, 62, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.en_tete_CV{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 75px;
+}
+
+.Experience_CV{
+    font-size: 11px;
+
+}
+
+.aside_CV{
+    text-align: right;
+    margin-right: 75px;
+}
+
+
+
+
+/*Style compétence*/
+
+.titre{
+    color: white;
+    text-align: center;
+}
+
+#Certifications a{
+    color: white;
+}
+
+.image img {
+    width:100%;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ANSSI{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.imgCnil {
+    width:100px;
+}
+
+.imgAnssi{
+    width:600px;
+}
+
+.certificationContainer{
+    display: flex;
+}
+
+
+/*Expérience professionnelle et stage*/
+
+.titre{
+    color:white;
+    text-align: center;
+}
+
+.experience_pro {
+    font-family: Arial, Helvetica, sans-serif ;    
+    font-size:12px;
+    color: white;
+    margin-left: 30px;
+}
+
+.Stage{
+    font-family: Arial, Helvetica, sans-serif ;    
+    font-size:12px;
+    color: white;
+    margin-left: 30px;
+}
+

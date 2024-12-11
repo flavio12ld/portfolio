@@ -1,0 +1,185 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+}
+
+.ligne2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: purple;
+    text-indent : 20px;
+}
+
+.ligne3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: purple;
+    text-indent : 20px;
+}
+
+.ligne4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-indent : 20px;
+    margin-top:25px;
+    margin-bottom:25px;
+
+}
+
+.titre1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom: 20px;
+    text-indent : 10px;
+}
+
+.titre1:hover{
+    color: green;
+}
+
+.titre1:active{
+    text-decoration: underline;
+}
+
+.par1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    text-indent: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.b1{
+    font-style: normal;
+}
+
+.b1:hover{
+    font-style: italic;
+}
+
+.par2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    text-indent: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.par3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-indent: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.sous{
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.sous1{
+    text-decoration: underline;
+    font-size: 13px;
+    text-indent : 12px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.sous2{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.sous3{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.sous4{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.sous5{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.sous6{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.sous7{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.a1{
+    margin-top:10px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.a1:hover{
+    font-style: italic;
+}
+
+.c1{
+    font-style: normal;
+}
+
+.c1:hover{
+    font-style: italic;
+}
+
+.d1{
+    text-indent : 10px; 
+    margin-top:10px;
+    margin-bottom: 20px;    
+}
+.d1:hover{
+    font-style: italic;
+}
+
+.e1{
+    font-style: normal;
+}
+
+.e1:hover{
+    font-style: italic;
+}

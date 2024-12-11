@@ -1,0 +1,39 @@
+.A{
+   background-color: rgba(255,0,0,0.5);
+}
+
+h1{
+    color: violet;
+}
+
+h2{
+    color:white;
+}
+
+body {
+    background-color: rgb(33, 120, 33);
+    background-image: url('pingouin.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 1200px;
+}
+
+article {
+    background-color:red;
+    opacity:0.61;
+    margin-left:50px;
+    margin-right:50px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url('pingouin.png');
+    background-size: 250px;
+}
+
+.y{
+    color: white;
+    font-weight: bold;
+}
+
+
+

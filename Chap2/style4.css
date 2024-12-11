@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background-color: rgb(85, 81, 81);
+    margin-left:5px;
+}
+
+.a1{
+    color: white;
+    background-color: rgb(79, 95, 147);
+    margin-left:50px;
+    margin-right:50px;
+    background-position:left;
+    background-repeat:no-repeat;
+    background-image:url('pingouin.png');
+    background-size: 110px,150px;
+    border: dashed rgb(195, 58, 9);
+    border-width:5px;
+    background-clip: content-box;
+    padding-bottom:5px ;
+    padding-left:5px;
+    padding-right:5px ;
+    padding-top:5px;   
+    background-origin:padding-box;
+}
+
+.a2{
+    color: white;
+    background-color: rgb(53, 97, 53);
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-position:left 95% ;
+    background-repeat:no-repeat;
+    background-image:url('pingouin.png');
+    background-size: 210px,150px;
+    border: dashed rgb(195, 58, 9);
+    border-width:5px;
+    background-clip: content-box;
+    padding-bottom:5px ;
+    padding-left:5px;
+    padding-right:5px ;
+    padding-top:5px;     
+}
+
+
+
+.a3{
+    color: white;
+    background-color: rgb(108, 2, 119);
+    margin-left:50px;
+    margin-right:50px;
+    background-position:left;
+    background-repeat:no-repeat;
+    background-image:url('pingouin.png');
+    background-size: 100px,150px;
+    border: dashed rgb(195, 58, 9);
+    border-width:5px;
+    background-clip: content-box;
+    padding-bottom:5px ;
+    padding-left:5px;
+    padding-right:5px ;
+    padding-top:5px;
+}
