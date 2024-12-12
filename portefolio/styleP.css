@@ -9,7 +9,7 @@ body{
 }
 
 .id{
-    background:linear-gradient(#e66465, #9198e5);
+    background:linear-gradient(#e12424, #9198e5);
     text-align:center;
     color:rgb(255, 255, 255);
     font-size:50px;
@@ -146,8 +146,8 @@ body{
     border-color:black;
     margin-top: 50px;
     text-align: center;
-    background:linear-gradient(#e66465, #9198e5);
-    opacity: 0.4;      
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;      
 }
 
 .Titre{
@@ -164,47 +164,61 @@ body{
     font-weight: bold; 
     text-shadow: rgb(255, 255, 255) 1px 0 10px; 
     flex-wrap: center;
-
 }
 
-
-/*Style Presentation Personnelle*/
-
-body{
-   
-    margin-top:25px;
-    margin-left:25px;
+.sous_page1:hover{
+    color:black;
 }
 
-.image{
-    width: 450px;
-    height: 225px;
-       
+.sous_page2:hover{
+    color:black;
 }
 
-.CV{
-    border:solid;
-    border-left:30px;
-    border-right:30px;
-    border-radius:10px;
-    margin-left:25px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:10px;
-    
-}
-
-.CV:hover{
-    background-color:rgb(0, 0, 0);
+.droit:hover{
     color:black;
 }
 
 
+
+/*Style Presentation Personnelle*/
+
+body{   
+    margin-top:25px;
+    margin-left:25px;
+}
+
 .en_tete{
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif ;    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px; 
+    margin-bottom: 50px;   
+}
+
+.personnel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    margin-bottom: 120px;
+}
+
+.titre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:45px;
+    text-align: left;
+
+}
+.image{
+    width: 450px;
+    height: 225px; 
+    margin-top:100px;     
+}
+
+.CV{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;    
 }
 
 /*Style CV*/ 
@@ -267,6 +281,7 @@ body{
 
 .imgAnssi{
     width:600px;
+    margin-bottom:25px;
 }
 
 .certificationContainer{
@@ -279,19 +294,70 @@ body{
 .titre{
     color:white;
     text-align: center;
+    font-size:18px;
 }
 
 .experience_pro {
     font-family: Arial, Helvetica, sans-serif ;    
-    font-size:12px;
+    font-size:16px;
     color: white;
     margin-left: 30px;
+    margin-top: 130px;
 }
 
 .Stage{
     font-family: Arial, Helvetica, sans-serif ;    
-    font-size:12px;
+    font-size:16px;
     color: white;
     margin-left: 30px;
+    margin-top: 85px;
 }
+
+.logo{
+    width:350px;
+}
+.logoExpEtTexte{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Veille technologique*/
+
+.titre{
+    color: white;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-top: 80px;
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;      
+}
+
+.sous_page1:hover{
+    color:black;
+}
+
+.sous_page2:hover{
+    color:black;
+}
+
+.droit:hover{
+    color:black;
+}
+
 
