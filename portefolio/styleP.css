@@ -20,18 +20,19 @@ body{
     writing-mode:horizontal-tb;
     direction:rtl;
     border-color:rgb(255, 255, 255);
-    margin-left:75px;
+    border-radius:40px;
+    margin-left:85px;
     margin-right:50px;   
     margin-top:10px;
     margin-bottom:45px;      
 }
 
-.Image {
+.barreMenu {
     float: left;
     color:white;
 }
 
-.Image:hover{
+.barreMenu:hover{
     background-color: white;
 }
 
@@ -45,20 +46,20 @@ body{
     color: white;
 }
 
-.MOOC{
+.Competence{
     border:solid;
     border-left:10px;
     border-right:10px;
     border-radius:10px;
     margin-left:25px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
 }
 
-.MOOC:hover{
+.Competence:hover{
     background-color: rgb(0, 0, 0);
     color:black;
 }
@@ -70,7 +71,7 @@ body{
     border-radius:10px;
     margin-left:25px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
@@ -88,7 +89,7 @@ body{
     border-radius:10px;
     margin-left:25px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
@@ -106,7 +107,7 @@ body{
     border-radius:10px;
     margin-left:25px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
@@ -125,7 +126,7 @@ body{
     margin-left:25px;
     margin-right:25px ;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
@@ -158,6 +159,38 @@ body{
     color: white;    
 }
 
+.containerInteret {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 20px;
+}
+
+.square {
+    width: 500px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+}
+.square:first-child {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.square:first-child .top {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.square:first-child .top div,
+.square:first-child .bottom {
+    background-color: #e74c3c;
+    border: 1px solid #fff;
+}
+.square:first-child .top div {
+    height: 100%;
+}
+.square:first-child .bottom {
+    height: 50%;
+}
+
 .sous_page{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -177,8 +210,6 @@ body{
 .droit:hover{
     color:black;
 }
-
-
 
 /*Style Presentation Personnelle*/
 
@@ -200,16 +231,16 @@ body{
     margin-bottom: 120px;
 }
 
-.titre{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:45px;
-    text-align: left;
-
-}
 .image{
     width: 450px;
     height: 225px; 
     margin-top:100px;     
+}
+
+.titreCV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: underline;
 }
 
 .CV{
@@ -219,6 +250,50 @@ body{
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;    
+}
+
+.titreFor {
+    font-size:19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formation{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+    
+
+.centre_interet{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;   
+    margin-top:100px;   
+}
+
+.sous_page1:hover{
+    color:black;
+}
+
+.sous_page2:hover{
+    color:black;
+}
+
+.droit:hover{
+    color:black;
 }
 
 /*Style CV*/ 
@@ -244,9 +319,6 @@ body{
     text-align: right;
     margin-right: 75px;
 }
-
-
-
 
 /*Style compétence*/
 
@@ -275,64 +347,94 @@ body{
     flex-wrap: wrap;
     position: relative;
 }
-.imgCnil {
-    width:100px;
-}
-
-.imgAnssi{
-    width:600px;
-    margin-bottom:25px;
-}
 
 .certificationContainer{
     display: flex;
 }
 
-
-/*Expérience professionnelle et stage*/
-
-.titre{
-    color:white;
-    text-align: center;
-    font-size:18px;
-}
-
-.experience_pro {
-    font-family: Arial, Helvetica, sans-serif ;    
-    font-size:16px;
-    color: white;
-    margin-left: 30px;
-    margin-top: 130px;
-}
-
-.Stage{
-    font-family: Arial, Helvetica, sans-serif ;    
-    font-size:16px;
-    color: white;
-    margin-left: 30px;
-    margin-top: 85px;
-}
-
-.logo{
-    width:350px;
-}
-.logoExpEtTexte{
+.certificationTitles {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 50px;
 }
 
-/*Veille technologique*/
+.certificationImages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 300px;
+}
 
-.titre{
+.certificationImages .imgCnil {
+    width: 650px;
+    height: auto;  
+    float: left;  
+}
+
+.certificationImages .imgAnssi { 
+    width: 650px;   
+    height: auto;
+    float: right;    
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;   
+    margin-top:100px;   
+}
+
+.sous_page1:hover{
+    color:black;
+}
+
+.sous_page2:hover{
+    color:black;
+}
+
+.droit:hover{
+    color:black;
+}
+
+/*Style Projet*/
+
+.titreProjet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.phraseIntro {
+    margin-bottom:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px;
+}
+
+.differentsProjet {
     color: white;
-    font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.p1{
+.liste{
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:20px;
-    margin-top: 80px;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-bottom: 235px;
 }
 
 .piedPage{
@@ -360,4 +462,101 @@ body{
     color:black;
 }
 
+/*Expérience professionnelle et stage*/
 
+.titre{
+    color:white;
+    text-align: center;
+    font-size:18px;
+}
+
+.experience_pro {
+    font-family: Arial, Helvetica, sans-serif ;    
+    font-size:16px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 105px;
+}
+
+.Stage{
+    font-family: Arial, Helvetica, sans-serif ;    
+    font-size:16px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+
+.logo{
+    width:350px;
+}
+.logoExpEtTexte{
+    display: flex;
+    flex-direction: row;
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;   
+    margin-top:100px;   
+}
+
+.sous_page1:hover{
+    color:black;
+}
+
+.sous_page2:hover{
+    color:black;
+}
+
+.droit:hover{
+    color:black;
+}
+
+/*Veille technologique*/
+
+.titre{
+    color: white;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-top: 80px;
+    margin-bottom:400px;
+}
+
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;      
+}
+
+.sous_page1:hover{
+    color:black;
+}
+
+.sous_page2:hover{
+    color:black;
+}
+
+.droit:hover{
+    color:black;
+}
