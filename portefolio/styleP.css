@@ -27,13 +27,25 @@ body{
     margin-bottom:45px;      
 }
 
-.barreMenu {
-    float: left;
-    color:white;
+.menu-hamburger {
+    position: absolute; 
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 1000; 
 }
 
-.barreMenu:hover{
-    background-color: white;
+.menu-hamburger div {
+    width: 35px;
+    height: 4px;
+    background-color: white; 
+    margin: 10px 0; 
+    border-radius: 2px; 
+    transition: background-color 0.3s; 
+}
+
+.menu-hamburger:hover div {
+    background-color: black; 
 }
 
 .container{
@@ -150,6 +162,13 @@ body{
     background:linear-gradient(#e12424, #9198e5);
     opacity: 0.65;      
 }
+.sous_page1, .sous_page2, .droit {
+    margin: 5px 0;
+}
+
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
+    color:black;
+}
 
 .Titre{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -165,43 +184,32 @@ body{
     grid-gap: 20px;
 }
 
-.square {
-    width: 500px;
-    height: 100px;
-    background-color: #3498db;
-    position: relative;
-}
-.square:first-child {
-    display: grid;
-    grid-template-rows: 50% 50%;
-}
-.square:first-child .top {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-.square:first-child .top div,
-.square:first-child .bottom {
-    background-color: #e74c3c;
-    border: 1px solid #fff;
-}
-.square:first-child .top div {
-    height: 100%;
-}
-.square:first-child .bottom {
-    height: 50%;
+.piedPage{
+    
+    opacity:0.77;
+    color:white;
+    background-color:grey;
+    border:solid;
+    border-color:black;
+    margin-top: 50px;
+    text-align: center;
+    background:linear-gradient(#e12424, #9198e5);
+    opacity: 0.65;
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0;
+    width: 100%;  
 }
 
-.sous_page{
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
-    text-shadow: rgb(255, 255, 255) 1px 0 10px; 
-    flex-wrap: center;
+
+.sous_page1, .sous_page2, .droit {
+    margin: 5px 0;
 }
 
 .sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
+
 
 /*Style Presentation Personnelle*/
 
@@ -233,14 +241,14 @@ body{
 
 .titreCV{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    text-decoration: underline;
+    font-size: 25px;
+    
 }
 
 .CV{
     
     font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
+    font-size:18px;
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;    
@@ -271,12 +279,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;
+    margin-bottom:30px;
 }
 
 .centre_interet{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .placement{
@@ -287,6 +297,7 @@ body{
     gap:10px; /*ecart entre les images*/
     margin-left:20px;
     margin-right:20px;
+    
 }
 
 .box{
@@ -296,50 +307,34 @@ body{
     display:flex;
     align-items:center;
     font-size:20px;
-    padding: 10px;
-    margin-bottom:100px;
+    padding: 20px;
+    margin-bottom:20px;
     animation: slideIn 1s ease-out forwards;
     text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.img1{
-    padding-left: 25px;
-    width:500px;
+.box:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-.img2{
-    padding-left: 25px;
-    width:500px;
+.box img {
+    width: 100%; 
+    max-width: 410px; 
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px; 
 }
 
-.img3{
-    padding-left: 25px;
-    width:500px;
-}
-
-.img4{
-    padding-left: 25px;
-    width:500px;
-}
-
-
-
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;   
-    margin-top:100px;  
-}
-
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
-    color:black;
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+    margin: 0;
 }
 
 /*Style compétence*/
@@ -399,25 +394,21 @@ body{
 .certificationImages .imgAnssi { 
     width: 650px;   
     height: auto;
-    float: right;    
+    float: right;
+    transition: transform 0.3s ease-in-out; /* Ajout de la transition pour un effet fluide */ 
 }
 
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;   
-    margin-top:100px;   
+.certificationImages .imgCnil:hover, .certificationImages .imgAnssi:hover {
+    transform: scale(1.2); /* Agrandissement de l'image à 120% */
 }
 
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
-    color:black;
+/* Fixe la taille et positionne les images pour qu'elles flottent correctement */
+.certificationImages .imgCnil {
+    float: left;
+}
+
+.certificationImages .imgAnssi {
+    float: right;
 }
 
 /*Style Projet*/
@@ -449,23 +440,6 @@ body{
     font-size: 19px;
     margin-left: 25px;
     margin-bottom: 235px;
-}
-
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;      
-}
-
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
-    color:black;
 }
 
 /*Expérience professionnelle et stage*/
@@ -501,23 +475,6 @@ body{
     flex-direction: row;
 }
 
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65; 
-}
-
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
-    color:black;
-}
-
 /*Veille technologique*/
 
 .titre{
@@ -532,21 +489,4 @@ body{
     color: white;
     margin-top: 80px;
     margin-bottom:540px;
-}
-
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;      
-}
-
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
-    color:black;
 }
