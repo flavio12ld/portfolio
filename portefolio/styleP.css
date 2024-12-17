@@ -199,15 +199,7 @@ body{
     flex-wrap: center;
 }
 
-.sous_page1:hover{
-    color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
 
@@ -216,12 +208,14 @@ body{
 body{   
     margin-top:25px;
     margin-left:25px;
+    color: white;
 }
 
 .en_tete{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size:50px; 
+    
     margin-bottom: 50px;   
 }
 
@@ -252,6 +246,10 @@ body{
     padding-top:10px;    
 }
 
+.cvPerso:hover{
+    color: white;
+}
+
 .titreFor {
     font-size:19px;
     font-family: Arial, Helvetica, sans-serif;
@@ -262,13 +260,69 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
 }
-    
+
+.titreLangue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:white;
+}
+
+.ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
 
 .centre_interet{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
+    font-size: 25px;
 }
+
+.placement{
+    justify-content:center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:(2, 1fr);
+    gap:10px; /*ecart entre les images*/
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.box{
+    background-color:black;
+    opacity: 0.9;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    font-size:20px;
+    padding: 10px;
+    margin-bottom:100px;
+    animation: slideIn 1s ease-out forwards;
+    text-align: center;
+}
+
+.img1{
+    padding-left: 25px;
+    width:500px;
+}
+
+.img2{
+    padding-left: 25px;
+    width:500px;
+}
+
+.img3{
+    padding-left: 25px;
+    width:500px;
+}
+
+.img4{
+    padding-left: 25px;
+    width:500px;
+}
+
+
 
 .piedPage{
     
@@ -281,43 +335,11 @@ body{
     text-align: center;
     background:linear-gradient(#e12424, #9198e5);
     opacity: 0.65;   
-    margin-top:100px;   
+    margin-top:100px;  
 }
 
-.sous_page1:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
-    color:black;
-}
-
-/*Style CV*/ 
-body{
-    background-color: rgb(64, 62, 62);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.en_tete_CV{
-    text-align: center;
-    color: white;
-    margin-bottom: 50px;
-    margin-left: 75px;
-}
-
-.Experience_CV{
-    font-size: 11px;
-
-}
-
-.aside_CV{
-    text-align: right;
-    margin-right: 75px;
 }
 
 /*Style compétence*/
@@ -394,15 +416,7 @@ body{
     margin-top:100px;   
 }
 
-.sous_page1:hover{
-    color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
 
@@ -450,15 +464,7 @@ body{
     opacity: 0.65;      
 }
 
-.sous_page1:hover{
-    color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
 
@@ -484,7 +490,7 @@ body{
     color: white;
     margin-left: 30px;
     margin-top: 85px;
-    margin-bottom: 100px;
+    margin-bottom: 230px;
 }
 
 .logo{
@@ -505,19 +511,10 @@ body{
     margin-top: 50px;
     text-align: center;
     background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;   
-    margin-top:100px;   
+    opacity: 0.65; 
 }
 
-.sous_page1:hover{
-    color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
 
@@ -532,8 +529,9 @@ body{
 .p1{
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
+    color: white;
     margin-top: 80px;
-    margin-bottom:400px;
+    margin-bottom:540px;
 }
 
 .piedPage{
@@ -549,14 +547,6 @@ body{
     opacity: 0.65;      
 }
 
-.sous_page1:hover{
-    color:black;
-}
-
-.sous_page2:hover{
-    color:black;
-}
-
-.droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover{
     color:black;
 }
