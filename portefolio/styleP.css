@@ -175,14 +175,20 @@ body{
     margin-top: 50px;
     text-align: center;
     background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;      
+    opacity: 0.65;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;    
 }
-.sous_page1, .sous_page2, .droit {
+.sous_page1, .sous_page2, .droit, .lien {
     margin: 5px 0;
 }
 
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover, .lien:hover{
     color:black;
+}
+.logo{
+    width:40px;  
+    height:40px;
 }
 
 .containerInteret {
@@ -209,11 +215,11 @@ body{
 }
 
 
-.sous_page1, .sous_page2, .droit {
+.sous_page1, .sous_page2, .droit, .logo {
     margin: 5px 0;
 }
 
-.sous_page1:hover, .sous_page2:hover, .droit:hover{
+.sous_page1:hover, .sous_page2:hover, .droit:hover, .logo{
     color:black;
 }
 
