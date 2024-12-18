@@ -60,7 +60,8 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:120px;
     font-weight:bolder;
-    color: white;    
+    color: white;   
+    margin-left:820px; 
 }
 
 .container{
@@ -177,8 +178,26 @@ body{
     background:linear-gradient(#e12424, #9198e5);
     opacity: 0.65;  
     font-family: Arial, Helvetica, sans-serif;
-    font-size:17px;    
+    font-size:17px;
+    position: relative;    
+    padding:20px;
 }
+.github-link {
+    position: absolute;
+    bottom: 30px; 
+    left: 10px; 
+}
+
+.logo {
+    width: 40px; /* Taille moyenne du logo */
+    height: 80px;
+    transition: transform 0.3s ease; /* Ajout d'une transition pour un effet au survol */
+}
+
+.github-link:hover .logo {
+    transform: scale(1.1); /* Légère mise en valeur du logo au survol */
+}
+
 .sous_page1, .sous_page2, .droit, .lien {
     margin: 5px 0;
 }
@@ -186,43 +205,6 @@ body{
 .sous_page1:hover, .sous_page2:hover, .droit:hover, .lien:hover{
     color:black;
 }
-.logo{
-    width:40px;  
-    height:40px;
-}
-
-.containerInteret {
-    display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-gap: 20px;
-}
-
-.piedPage{
-    
-    opacity:0.77;
-    color:white;
-    background-color:grey;
-    border:solid;
-    border-color:black;
-    margin-top: 50px;
-    text-align: center;
-    background:linear-gradient(#e12424, #9198e5);
-    opacity: 0.65;
-    padding: 20px 0; 
-    position: relative; 
-    bottom: 0;
-    width: 100%;  
-}
-
-
-.sous_page1, .sous_page2, .droit, .logo {
-    margin: 5px 0;
-}
-
-.sous_page1:hover, .sous_page2:hover, .droit:hover, .logo{
-    color:black;
-}
-
 
 /*Style Presentation Personnelle*/
 
@@ -464,15 +446,16 @@ body{
 
 .experience_pro {
     font-family: Arial, Helvetica, sans-serif ;    
-    font-size:16px;
+    font-size:19px;
     color: white;
     margin-left: 30px;
-    margin-top: 105px;
+    margin-top: 90px;
+    
 }
 
 .Stage{
     font-family: Arial, Helvetica, sans-serif ;    
-    font-size:16px;
+    font-size:19px;
     color: white;
     margin-left: 30px;
     margin-top: 85px;
